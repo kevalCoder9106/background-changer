@@ -1,6 +1,6 @@
 body{
     font-family: 'Poiret One', cursive;
-
+    font-size: 50px;
     text-align: center;
 
     background: linear-gradient(to right, 
@@ -8,8 +8,11 @@ body{
 }
 
 input{
+    width: 150px;
+    height: 100px;
     background-color: lightskyblue;
     border: 2px solid lightskyblue;
+    border-width: 10px;
     border-radius: 5px 10px 5px;
 
     transition: all .3s;
